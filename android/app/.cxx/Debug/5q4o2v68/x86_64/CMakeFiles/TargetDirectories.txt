@@ -1,0 +1,2 @@
+C:/Users/Gabriel/Downloads/converter_money/android/app/.cxx/Debug/5q4o2v68/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Gabriel/Downloads/converter_money/android/app/.cxx/Debug/5q4o2v68/x86_64/CMakeFiles/rebuild_cache.dir
