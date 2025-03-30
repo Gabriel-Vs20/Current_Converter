@@ -52,7 +52,11 @@ class _HomePageState extends State<HomePage> {
     double? preco = 1.0;
 
     return Scaffold(
-      appBar: AppBar(title: Text("Currency Converter")),
+      appBar: AppBar(
+          title: Text(
+        "Currency Converter",
+        style: TextStyle(fontFamily: 'Quicksand'),
+      )),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -61,7 +65,13 @@ class _HomePageState extends State<HomePage> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text("Selecionar moeda "),
+                Text(
+                  "Selecionar moeda ",
+                  style: TextStyle(
+                      fontFamily: 'Quicksand',
+                      fontWeight: FontWeight.bold,
+                      color: const Color.fromARGB(255, 70, 238, 48)),
+                ),
                 DropdownButton<String>(
                   hint: selecionado == null ? Text("Escolha") : null,
                   value: selecionado,
@@ -98,7 +108,11 @@ class _HomePageState extends State<HomePage> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text("Selecionar moeda "),
+                Text("Selecionar moeda ",
+                    style: TextStyle(
+                        fontFamily: 'Quicksand',
+                        fontWeight: FontWeight.bold,
+                        color: const Color.fromARGB(255, 70, 238, 48))),
                 DropdownButton<String>(
                   hint: selecionado == null ? Text("Escolha") : null,
                   value: selecionado,
